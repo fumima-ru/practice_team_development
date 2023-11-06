@@ -8,6 +8,8 @@ body {
   color: #050507;
   font-size: 1rem;
   /*font-family: ;*/
+  margin: 20px;
+  max-width: 800px;
 }
 img {
   max-width: 100%;
@@ -23,12 +25,49 @@ a {
 }
 
 /* --#header----------------------- */
+
+
+header {
+  padding: 20px 0;
+}
+
+
+/* --#main----------------------- */
+main h2 {
+  margin: 20px 0;
+}
+
+.flex-definition {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-definition dt {
+  width: 50%;
+  border-bottom: 1px solid #050507;
+  padding: 10px 0;
+}
+
+.flex-definition dd {
+  width: 50%;
+  border-bottom: 1px solid #050507;
+  text-align: right;
+  padding: 10px 0;
+}
+
+
+/* --#footer----------------------- */
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
 /* --ハンバーガーメニュー------------ */
 /* --#mainvisual------------------- */
 /* --#information------------------ */
 /* --#access----------------------- */
 /* --#contact---------------------- */
-/* --#footer----------------------- */
+
 /* --レスポンシブ------------------- */
 /* --レスポンシブ#information------- */
 /* --レスポンシブ#access------------ */
