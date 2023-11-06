@@ -2,8 +2,8 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>チーム開発練習用ページ</title>
-    <meta name="description" content="サイトの説明">
+    <title>開発環境や活動について</title>
+    <meta name="description" content="fumima-ruがプログラミングをする際に使用している開発環境や活動について紹介しています。">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -19,14 +19,14 @@
 
     <!--Font Awesome読み込み-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <!--css読み込み-->
-    <link rel="stylesheet" href="css/<!--cssファイル名-->">
+    <link rel="stylesheet" href="css/practice_team_development.css">
     
     <!--Google の CDNを使用-->
     <!--(CDNを経由する方法であればjQueryをダウンロードする必要がない　バージョンが変わることがあるので注意すること)-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--jsファイル読み込み--（すべてのjsファイルを読み込む書いた順に実行される意識を持つこと）-->  
     <script src="js/<!--jsファイル名-->" defer></script>
   </head>
@@ -36,7 +36,7 @@
     <header id="header">
       <div class="inner wrapper">
         <h1 class="logo">
-          <a href="#">チーム開発練習用ページ</a>
+          <a href="#">開発環境や活動について</a>
         </h1>
       </div>
     </header>
@@ -45,13 +45,60 @@
     <div class="container">
       <!--main----------------------------->
       <main>
-        <p>ブランチ名を変更してマージしてみる</p>
+        <h2>開発環境</h2>
+        <dl class="flex-definition">
+          <dt>OS</dt><dd>Windows</dd>
+          <dt>エディタ</dt><dd>Visual Studio Code</dd>
+          <dt>ターミナル</dt><dd>Visual Studio Code</dd>
+          <dt>バージョン管理</dt><dd>Git・GitHub</dd>
+          <dt>タスク管理</dt><dd>GitHub内のIssuesやprojects</dd>
+          <dt>パッケージ</dt><dd>XAMPP</dd>
+          <dt>補助系ソフトウェア</dt><dd>SourceTree</dd>
+          <dt>サーバ</dt><dd>Xserver</dd>
+        </dl>
+
+        <h2>主に使用している言語</h2>
+        <ul>
+          <li>html</li>
+          <li>css</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+        </ul>
+
+        <h2>少し掘り下げて学習した言語</h2>
+        <ul>
+          <li>SQL</li>
+          <li>PHP</li>
+        </ul>
+
+        <h2>Progate（オンラインプログラミング学習サービス）で学んだ言語</h2>
+        <ul>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>Sass</li>
+          <li>React</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Go</li>
+          <li>Node.js</li>
+        </ul>
+
+        <h2>活動について</h2>
+        <div class="">
+          <p>
+            現在はWebページを作成していますが、スマートフォンのアプリ開発、IoT、動画編集にも興味があります。<br>作ることが楽しいと感じるのでLINEスタンプ等も作ってみたいです。<br>今後はReact、TypeScript、Sassを掘り下げて学習したいと考えています。
+          </p>
+        </div>
       </main>
       
       <!--#footer-------------------------->
       <footer id="footer" class="wrapper">
-        <p class="copyright">&copy; チーム開発練習用ページ</p>
+        <p class="copyright">&copy; fumima_ru</p>
       </footer>
     </div>
   </body>
 </html>
+
+<!-- サーバにアップロードする際には下記を更新 
+必要のないコードを消去
+レスポンシブ対応のコードを追記 -->
